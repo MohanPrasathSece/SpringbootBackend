@@ -15,6 +15,6 @@ public class Hello {
     // Root path for Render health check
     @GetMapping("/")
     public String root() {
-        return "Hello!! Springboot backend successfully deployed";
+        return "Hello Mohan! Springboot backend successfully deployed";
     }
 }
